@@ -1,0 +1,52 @@
+.location {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.location div .date {
+    padding: 5px;
+    text-align: center;
+    margin: 4%;
+    box-shadow: -2px -1px 6px 2px rgba(0, 0, 0, 0.51);
+    padding: 2%;
+}
+.petitIcon{
+    display: flex;
+    justify-content: space-around;
+}
+.petitIcon div {
+    padding: 0 20px;
+    white-space: nowrap ;
+}
+#click a {
+    text-decoration: none;
+    color: black;
+  
+}
+.shadow {
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-bottom: 0;
+    box-shadow: 1px 0px 6px 10px rgba(0, 0, 0, 0.29);
+}
+.petitIcon{
+    color: var(--primary-blue);
+}
+#click {
+    margin: 4% 0 0 2%;
+    background-color: #eee;
+    padding: 2% 1%;
+}
+.map {
+    font-size: large; 
+    color: #d35649; 
+    padding: 4% 4% 1% 4%
+}
+@media screen and (max-width: 768px){
+    .petitIcon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

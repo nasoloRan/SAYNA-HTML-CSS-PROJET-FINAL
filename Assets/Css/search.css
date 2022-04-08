@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+.img img{
+    margin: 10px;
+}
+@media screen and (max-width: 768px){
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+}

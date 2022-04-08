@@ -1,0 +1,125 @@
+:root{
+--primary-color: #d35649;
+--primary-gray: #98a5a5;
+--primary-blue: #509bd7;
+--gray-footer: #1f1f1f;
+--gray-footer-btn: #444;
+--primary-purple: #575a89;
+--light-gray: #eee;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #d35649;
+    color: var(--light-gray);
+    padding: 1% auto;
+}
+.nav a {
+    text-decoration: none;
+    color: var(--light-gray);
+    padding: 0 10px;
+}
+.menu{
+      padding: 5px;
+}
+.gateway{
+    background: url(../Images/group-1.jpg);
+    background-position: center;
+    padding-bottom: 30em;
+}
+.textshadow{
+    color: white;
+    text-shadow: 2px 2px 0px #474747
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10%;
+}
+.work div{
+    padding: 0 4%;
+}
+
+.near{
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+}
+.near img, .connect img, .spending img {
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+}
+.connect {
+    display: flex;
+    background-color: var(--primary-gray) ;
+    justify-content: space-between;
+}
+.spending{
+    display: flex;
+    background-color: var(--primary-blue);
+    justify-content: space-between;
+}
+footer {
+      background-color: var(--gray-footer);
+      color: var(--light-gray);
+      padding: 0 10%;
+}
+.lienFooter {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
+.lienFooter a {
+    text-decoration: none;
+    color: #fff;
+    font-size: x-small;
+}
+.trait{
+    border-top: solid #eee 1px;
+    border-bottom: solid #eee 1px;
+    padding: 20px;
+}
+.lienFooter img {
+    color: #eee;
+  filter: invert(1);
+  border: 1px solid #1f1f1f;
+  border-radius: 50%;
+}
+footer .subscribe{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+footer .copy{
+    display: flex;
+    justify-content: space-between ;
+    color: var(--light-gray);
+}
+@media screen and (max-width: 768px){
+    #search{
+        text-align: center !important;
+        margin: 0 1em !important;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    #boutton{
+        
+        width: 100%!important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        padding: 0 1em !important;
+    }
+    #boutton input{
+        width:100% !important;
+    }
+}
